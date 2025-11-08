@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aditya Singla — CV</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#2dd4bf;--accent-2:#60a5fa}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:linear-gradient(180deg,#071224 0%, #07192a 100%);color:#e6eef6}
+    .container{max-width:1000px;margin:36px auto;padding:28px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);border-radius:14px;overflow:hidden;display:grid;grid-template-columns:320px 1fr}
+    .side{padding:28px;background:linear-gradient(180deg, rgba(45,212,191,0.02), rgba(96,165,250,0.01))}
+    .avatar{width:120px;height:120px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:36px;background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#04212a;margin-bottom:18px}
+    h1{margin:0;font-size:22px}
+    .meta{margin-top:6px;color:var(--muted);font-size:13px}
+    .contact{margin-top:18px;font-size:14px}
+    .contact a{color:var(--accent);text-decoration:none}
+    .section{padding:24px}
+    .section h2{margin:0 0 12px 0;font-size:18px;color:#dff7f1}
+    .skill-badge{display:inline-block;padding:6px 10px;border-radius:999px;margin:4px;background:rgba(255,255,255,0.03);font-size:13px}
+    .list-item{margin-bottom:14px}
+    .role{font-weight:600}
+    .muted{color:var(--muted);font-size:13px}
+    .edu-grid{display:flex;flex-direction:column;gap:12px}
+    .project-title{font-weight:600}
+    .pub-list{list-style:none;padding-left:0;margin:0}
+    .pub-list li{margin-bottom:8px}
+    .top-row{display:flex;justify-content:space-between;align-items:center}
+    .download-btn{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#04212a;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    @media(max-width:880px){.card{grid-template-columns:1fr}.side{order:2}.section{padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <aside class="side">
+        <div style="display:flex;flex-direction:column;align-items:center">
+          <div class="avatar">AS</div>
+          <h1>Aditya Singla</h1>
+          <div class="meta">PhD (pursuing) • Computer Science Engineering</div>
+          <div class="meta">AI in Agriculture • JNU, Delhi</div>
+          <div style="margin-top:12px" class="contact">
+            <div class="muted">Email</div>
+            <div><a href="mailto:aditya.21.singla@gmail.com">aditya.21.singla@gmail.com</a></div>
+            <div class="muted" style="margin-top:8px">Mobile / WhatsApp</div>
+            <div>+91-93541-24677 • +91-98684-73356</div>
+          </div>
+          <div style="margin-top:18px;text-align:center">
+            <a class="download-btn" href="#" onclick="downloadCV()">Download PDF</a>
+          </div>
+        </div>
+
+        <div style="margin-top:22px">
+          <h3 style="margin:0 0 8px 0;color:#dff7f1">Skillset</h3>
+          <div class="skill-badge">Machine Learning &amp; AI</div>
+          <div class="skill-badge">Computational Finance</div>
+          <div class="skill-badge">Data Analysis</div>
+          <div class="skill-badge">Remote Sensing</div>
+          <div class="skill-badge">MS Excel</div>
+        </div>
+
+        <div style="margin-top:18px">
+          <h3 style="margin:0 0 8px 0;color:#dff7f1">Languages</h3>
+          <div class="muted">English • Hindi • Chinese</div>
+        </div>
+
+        <div style="margin-top:18px">
+          <h3 style="margin:0 0 8px 0;color:#dff7f1">Certifications</h3>
+          <div class="muted">Neural Networks &amp; Deep Learning (DeepLearning.AI)</div>
+          <div class="muted">Data Science &amp; ML Fundamentals (CFI)</div>
+          <div class="muted">IMF: Macroeconomics of Climate Change (2023)</div>
+        </div>
+
+      </aside>
+
+      <main>
+        <div class="section">
+          <div class="top-row">
+            <div>
+              <h2>Profile</h2>
+            </div>
+            <div class="muted">Male, 24 years</div>
+          </div>
+
+          <p class="muted">Practical applications of Computer Science Engineering in Agriculture, Crop Insurance, Artificial Intelligence, Optimization Techniques, Database Management Systems, Cloud Computing, Computational Finance.</p>
+        </div>
+
+        <div class="section">
+          <h2>Education</h2>
+          <div class="edu-grid">
+            <div class="list-item">
+              <div class="role">PhD — Computer Science Engineering (AI in Agriculture)</div>
+              <div class="muted">Jawaharlal Nehru University, Delhi — Pursuing</div>
+            </div>
+            <div class="list-item">
+              <div class="role">M.Tech — Computer Science Engineering (2023)</div>
+              <div class="muted">Jawaharlal Nehru University, Delhi — 87.70%</div>
+            </div>
+            <div class="list-item">
+              <div class="role">B.Tech — Computer Science Engineering (2022)</div>
+              <div class="muted">Jawaharlal Nehru University, Delhi — 84.20%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Work Experience</h2>
+
+          <div class="list-item">
+            <div class="role">UGC Junior Research Fellow</div>
+            <div class="muted">Jan 2024 – Present</div>
+            <div>Research on AI applications in agriculture; Teaching Assistant for C programming (UG course).</div>
+            <ul>
+              <li>Invited reviewer for IEEE conference (2025).</li>
+              <li>Published research using remote sensing &amp; geospatial data; paper presentations at IEEE (Vietnam), ACM (Japan).</li>
+            </ul>
+          </div>
+
+          <div class="list-item">
+            <div class="role">Assistant — Office of Member of Parliament (Rajkot)</div>
+            <div class="muted">Jan 2020 – Jul 2022</div>
+            <div>Prepared notes on Estimates Committee; framed questions for Question Hour; drafted official correspondence.</div>
+            <ul>
+              <li>Reviewed national schemes (Bharatmala, BharatNet) and analyzed employment programs for several states.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="section">
+          <h2>Internships</h2>
+          <div class="list-item">
+            <div class="role">TCS — Intern (Networking &amp; Computing Resource Management)</div>
+            <div class="muted">Sep 2021 – Nov 2021</div>
+            <div>Developed an AI algorithm to detect malicious online activity.</div>
+          </div>
+
+          <div class="list-item">
+            <div class="role">EY — Govt. &amp; Public Sector Analytics</div>
+            <div class="muted">Jun 2021 – Jul 2021</div>
+            <div>Formulated KPIs for National Integrated Information Portal; comparative analysis of Middle Eastern countries.</div>
+          </div>
+
+          <div class="list-item">
+            <div class="role">Deutsche Telekom Digital Labs — Intern</div>
+            <div class="muted">Jun 2020 – Jul 2020</div>
+            <div>Developed dashboard and studied e-commerce/Wi-Fi system applications.</div>
+          </div>
+
+        </div>
+
+        <div class="section">
+          <h2>Projects</h2>
+          <div class="list-item">
+            <div class="project-title">Portfolio Optimization Using Reinforcement Learning and Eigenvesting (2022)</div>
+            <div class="muted">Supervision: Dr. Sakshi Sharma</div>
+          </div>
+          <div class="list-item">
+            <div class="project-title">Age, Gender &amp; Ethnicity Prediction using CNNs (2021)</div>
+            <div class="muted">Guidance: Dr. Prerana Mukherjee</div>
+          </div>
+          <div class="list-item">
+            <div class="project-title">Predicting Stock Market Instabilities (2020)</div>
+            <div class="muted">Supervision: Prof. Anirban Charaborti</div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Publications &amp; Presentations</h2>
+          <ul class="pub-list">
+            <li>"Evaluating Agricultural Crop Mask Generation: Case Study of a District in North India" — 2025, Tokyo (conference proceeding).</li>
+            <li>"AI Based-Modeling of Geo-Spatial Agriculture Data for Crop Yield Estimation" — 2024, IEEE ATC (Ho Chi Minh City), DOI available.</li>
+            <li>M.Tech dissertation: "Prediction of agricultural features using multivariate techniques" (2023).</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Articles in Media</h2>
+          <p class="muted">Several opinion pieces and articles published in national dailies (The Pioneer, Millennium Post, Indian Narrative) on governance, environment, agriculture and public policy (2019–2022).</p>
+        </div>
+
+        <div class="section">
+          <h2>Licenses &amp; Certifications</h2>
+          <div class="muted">Neural Networks &amp; Deep Learning (DeepLearning.ai) • Data Science &amp; ML Fundamentals (CFI) • IMF courses (Macroeconomics of Climate Change)</div>
+        </div>
+
+      </main>
+    </div>
+
+    <footer style="text-align:center;color:var(--muted);margin-top:18px">Built with ❤️ • Customize or ask me to export this as a ZIP / deploy it for you.</footer>
+  </div>
+
+  <script>
+    function downloadCV(){
+      // placeholder - replace URL with the actual hosted PDF path
+      const pdfUrl = '#';
+      if(pdfUrl === '#'){
+        alert('Replace the download link in the HTML with the path to your CV PDF.');
+      } else {
+        window.open(pdfUrl, '_blank');
+      }
+    }
+  </script>
+</body>
+</html>
